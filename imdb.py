@@ -50,7 +50,7 @@ class IMDBShow(IMDBBase):
 		super().__init__(name, year, stars, rating, n_ratings, link)
 
 class Scraper(object):
-
+	# Constantes esssenciais
 	TOP_RATED_MOVIES_URL = 'https://www.imdb.com/chart/top/'
 	MOST_POPULAR_MOVIES_URL = 'https://www.imdb.com/chart/moviemeter/'
 	TOP_RATED_SHOWS_URL = 'https://www.imdb.com/chart/toptv/'
